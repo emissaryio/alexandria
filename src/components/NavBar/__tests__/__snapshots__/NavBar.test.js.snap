@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> renders correctly 1`] = `
+<div
+  className=""
+>
+  <WithStyles(AppBar)
+    color="default"
+    position="static"
+  >
+    <WithStyles(Toolbar)>
+      <WithStyles(IconButton)
+        href="/"
+      >
+        <pure(HomeIcon) />
+      </WithStyles(IconButton)>
+      <WithStyles(Tabs)
+        indicatorColor="primary"
+        onChange={[Function]}
+        textColor="primary"
+        value={0}
+        variant="fullWidth"
+      >
+        <WithStyles(Tab)
+          key=".0"
+          label="Item 1"
+        >
+          <a
+            href="#Item1"
+            label="Item 1"
+          >
+            Item 1
+          </a>
+        </WithStyles(Tab)>
+        <WithStyles(Tab)
+          key=".1"
+          label="Item 2"
+        >
+          <a
+            href="#Item1"
+            label="Item 2"
+          >
+            Item 2
+          </a>
+        </WithStyles(Tab)>
+        <WithStyles(Tab)
+          key=".2"
+          label="Item 3"
+        >
+          <a
+            href="#Item1"
+            label="Item 3"
+          >
+            Item 3
+          </a>
+        </WithStyles(Tab)>
+      </WithStyles(Tabs)>
+    </WithStyles(Toolbar)>
+  </WithStyles(AppBar)>
+</div>
+`;
+
+exports[`<NavBar /> renders correctly with className 1`] = `
+<div
+  className="custom-nav-bar"
+>
+  <WithStyles(AppBar)
+    color="default"
+    position="static"
+  >
+    <WithStyles(Toolbar)>
+      <WithStyles(IconButton)
+        href="/"
+      >
+        <pure(HomeIcon) />
+      </WithStyles(IconButton)>
+      <WithStyles(Tabs)
+        indicatorColor="primary"
+        onChange={[Function]}
+        textColor="primary"
+        value={0}
+        variant="fullWidth"
+      >
+        <WithStyles(Tab)
+          key=".0"
+          label="Item 1"
+        >
+          <a
+            href="#Item1"
+            label="Item 1"
+          >
+            Item 1
+          </a>
+        </WithStyles(Tab)>
+        <WithStyles(Tab)
+          key=".1"
+          label="Item 2"
+        >
+          <a
+            href="#Item1"
+            label="Item 2"
+          >
+            Item 2
+          </a>
+        </WithStyles(Tab)>
+        <WithStyles(Tab)
+          key=".2"
+          label="Item 3"
+        >
+          <a
+            href="#Item1"
+            label="Item 3"
+          >
+            Item 3
+          </a>
+        </WithStyles(Tab)>
+      </WithStyles(Tabs)>
+    </WithStyles(Toolbar)>
+  </WithStyles(AppBar)>
+</div>
+`;
