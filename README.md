@@ -41,13 +41,26 @@ $ npm run build-and-publish
 export { default as NewComponent } from 'components/NewComponent';
 ```
 
-- Add styles files under `src/scss/components/_new-component.scss`
+## Adding Styles
+- This library utilizes the [emotion](https://emotion.sh/docs/object-styles) library using css in js
 
-- Import new styles in `src/scss/theme.scss`
-```scss
-  @import 'components/new-component';
- ```
- 
+- Add styles files under `src/components/NewComponent/styles.js`
+
+- import styles into their components. 
+
+## Adding Stories
+
 - Write stories in `src/components/Newcomponent/component.stories.js`
 
+## Adding Jest Tests
+
 - Write tests in `src/components/NewComponent/__tests__`
+
+## Libraries Utilized
+
+- CSS: [emotion](https://emotion.sh/docs/object-styles)
+- UI-Framework: [Material-UI](https://material-ui.com/)
+- Packageing Library: [Rollup](https://rollupjs.org/guide/en)
+- Testing Framework: [Jest](https://jestjs.io/) [enzyme](https://airbnb.io/enzyme/)
+- UI Component Display: [Storybook](https://storybook.js.org/)
+- ElasticSearch UI Components: [ReactiveSearch](https://opensource.appbase.io/reactivesearch/)
