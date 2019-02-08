@@ -7,8 +7,7 @@
   ],
   "plugins": [
     ["@babel/plugin-proposal-object-rest-spread", { "useBuiltIns": true }],
-    "@babel/plugin-proposal-class-properties",
-    "require-context-hook"
+    "@babel/plugin-proposal-class-properties"
   ],
   "env": {
     "test": {

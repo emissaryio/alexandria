@@ -1,18 +1,22 @@
 import initStoryshots, {
-  multiSnapshotWithOptions
+  multiSnapshotWithOptions,
+  browserSnapshot
 } from '@storybook/addon-storyshots';
+import { mount } from 'enzyme';
 
 
 initStoryshots({
   suite: 'Storyshots',
   integrityOptions: { cwd: __dirname },
-  test: multiSnapshotWithOptions({})
+  test: multiSnapshotWithOptions({}),
+  renderer: mount
 });
 
-// /* 👇 Initialize our Image storyshots suite */
-// initStoryshots({
-//   suite: 'Image Storyshots',
-//   test: imageSnapshot({
-//     storybookUrl: 'http://localhost:6006' // 👈 Point to our storybook URL in port 9009
-//   })
-// });
+
+/* 👇 Initialize our Image storyshots suite */
+initStoryshots({
+  suite: 'browser Storyshots',
+  configPath: '.storybook',
+  test: browserSnapshot,
+  renderer: mount
+});
