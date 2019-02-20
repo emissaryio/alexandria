@@ -5,7 +5,6 @@ exports[`<NavBar /> renders correctly 1`] = `
   className=""
 >
   <WithStyles(AppBar)
-    color="default"
     position="static"
   >
     <WithStyles(Toolbar)>
@@ -17,7 +16,6 @@ exports[`<NavBar /> renders correctly 1`] = `
       <WithStyles(Tabs)
         indicatorColor="primary"
         onChange={[Function]}
-        textColor="primary"
         value={0}
         variant="fullWidth"
       >
@@ -25,34 +23,28 @@ exports[`<NavBar /> renders correctly 1`] = `
           key=".0"
           label="Item 1"
         >
-          <a
-            href="#Item1"
+          <NavBarItem
             label="Item 1"
-          >
-            Item 1
-          </a>
+            to="#Item1"
+          />
         </WithStyles(Tab)>
         <WithStyles(Tab)
           key=".1"
           label="Item 2"
         >
-          <a
-            href="#Item1"
+          <NavBarItem
             label="Item 2"
-          >
-            Item 2
-          </a>
+            to="#Item2"
+          />
         </WithStyles(Tab)>
         <WithStyles(Tab)
           key=".2"
           label="Item 3"
         >
-          <a
-            href="#Item1"
+          <NavBarItem
             label="Item 3"
-          >
-            Item 3
-          </a>
+            to="#Item3"
+          />
         </WithStyles(Tab)>
       </WithStyles(Tabs)>
     </WithStyles(Toolbar)>
@@ -65,7 +57,6 @@ exports[`<NavBar /> renders correctly with className 1`] = `
   className="custom-nav-bar"
 >
   <WithStyles(AppBar)
-    color="default"
     position="static"
   >
     <WithStyles(Toolbar)>
@@ -77,7 +68,6 @@ exports[`<NavBar /> renders correctly with className 1`] = `
       <WithStyles(Tabs)
         indicatorColor="primary"
         onChange={[Function]}
-        textColor="primary"
         value={0}
         variant="fullWidth"
       >
@@ -85,34 +75,28 @@ exports[`<NavBar /> renders correctly with className 1`] = `
           key=".0"
           label="Item 1"
         >
-          <a
-            href="#Item1"
+          <NavBarItem
             label="Item 1"
-          >
-            Item 1
-          </a>
+            to="#Item1"
+          />
         </WithStyles(Tab)>
         <WithStyles(Tab)
           key=".1"
           label="Item 2"
         >
-          <a
-            href="#Item1"
+          <NavBarItem
             label="Item 2"
-          >
-            Item 2
-          </a>
+            to="#Item2"
+          />
         </WithStyles(Tab)>
         <WithStyles(Tab)
           key=".2"
           label="Item 3"
         >
-          <a
-            href="#Item1"
+          <NavBarItem
             label="Item 3"
-          >
-            Item 3
-          </a>
+            to="#Item3"
+          />
         </WithStyles(Tab)>
       </WithStyles(Tabs)>
     </WithStyles(Toolbar)>

@@ -2,6 +2,7 @@ import '@storybook/addon-console';
 import { configure, setAddon, addDecorator } from '@storybook/react';
 import { withInfo } from "@storybook/addon-info";
 import JSXAddon from 'storybook-addon-jsx';
+require('babel-plugin-require-context-hook/register')();
 
 
 addDecorator(withInfo({

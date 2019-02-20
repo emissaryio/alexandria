@@ -42,8 +42,7 @@ class NavBar extends Component {
             <Tabs
               value={value}
               onChange={this.handleChange}
-              indicatorColor="primary"
-              textColor="primary"
+              indicatorColor={(color === 'primary') ? 'secondary' : 'primary'}
               variant="fullWidth"
             >
               {Children.map(children, child => (

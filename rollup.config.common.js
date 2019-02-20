@@ -21,6 +21,7 @@ export default [{
     'react',
     'react-dom',
     '@material-ui/core',
-    '@material-ui/icons'
+    '@material-ui/icons',
+    '@material-ui/core/styles'
   ]
 }];

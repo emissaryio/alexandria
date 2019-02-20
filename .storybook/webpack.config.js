@@ -8,6 +8,13 @@ module.exports = (baseConfig, env, defaultConfig) => {
     use: [
       require.resolve('style-loader'),
       {
+        loader: 'css-loader',
+        options: {
+          module: false,
+          localIdentName: '[path][name]-[local]'
+        },
+      },
+      {
         loader: 'postcss-loader',
         options: {
           ident: 'postcss',
@@ -22,6 +29,11 @@ module.exports = (baseConfig, env, defaultConfig) => {
         },
       }
     ],
+  },
+  {
+    test: /\.css$/,
+    include: path.resolve(__dirname, '../src'),
+    use: [ 'css-to-mui-loader' ]
   });
 
   defaultConfig.resolve.extensions.push('.scss');

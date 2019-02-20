@@ -7,8 +7,10 @@
   ],
   "plugins": [
     ["@babel/plugin-proposal-object-rest-spread", { "useBuiltIns": true }],
-    "@babel/plugin-proposal-class-properties"
+    "@babel/plugin-proposal-class-properties",
+    "require-context-hook"
   ],
+  "exclude": "node_modules/**",
   "env": {
     "test": {
       "plugins": ["@babel/plugin-transform-modules-commonjs", "emotion"]
