@@ -1,6 +1,6 @@
 {
   "name": "@emissary/alexandria",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Emissary UI Library",
   "main": "src/index.js",
   "license": "MIT",
