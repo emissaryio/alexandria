@@ -2,8 +2,6 @@ import '@storybook/addon-console';
 import { configure, setAddon, addDecorator } from '@storybook/react';
 import { withInfo } from "@storybook/addon-info";
 import JSXAddon from 'storybook-addon-jsx';
-require('babel-plugin-require-context-hook/register')();
-
 
 addDecorator(withInfo({
   header: true,
@@ -11,12 +9,10 @@ addDecorator(withInfo({
 }));
 
 setAddon(JSXAddon);
-
-const req = require.context("../src", true, /\.stories\.js$/);
+const req = require.context('../src', true, /\.stories\.js$/);
 function loadStories() {
-    req.keys().forEach(filename => req(filename));
+  req.keys().forEach(filename => req(filename));
 }
 
-
-
 configure(loadStories, module);
+

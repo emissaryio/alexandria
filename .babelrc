@@ -7,21 +7,14 @@
   ],
   "plugins": [
     ["@babel/plugin-proposal-object-rest-spread", { "useBuiltIns": true }],
-    "@babel/plugin-proposal-class-properties",
-    "require-context-hook"
+    "@babel/plugin-proposal-class-properties"
   ],
   "exclude": "node_modules/**",
   "env": {
     "test": {
-      "plugins": ["@babel/plugin-transform-modules-commonjs", "emotion"]
-    },
-    "production": {
-      "plugins": [["emotion", { "hoist": true }]]
-    },
-    "development": {
       "plugins": [
-        ["emotion", { "sourceMap": true, "autoLabel": true }]
-      ]
+        "require-context-hook",
+        "@babel/plugin-transform-modules-commonjs"]
     }
   }
 }
