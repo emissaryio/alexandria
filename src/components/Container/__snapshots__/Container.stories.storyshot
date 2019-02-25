@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots NavBar MORE 1`] = `
+exports[`Storyshots Container Styled 1`] = `
 <div>
   <div
     style={
@@ -11,273 +11,18 @@ exports[`Storyshots NavBar MORE 1`] = `
     }
   >
     <div
-      className=""
+      className="MuiPaper-root-66 MuiPaper-elevation1-69 MuiPaper-rounded-67 Container-root-65 Styled-WithStyles-Container---root-1c93bne"
     >
-      <header
-        className="MuiPaper-root-227 MuiPaper-elevation4-233 MuiAppBar-root-218 MuiAppBar-positionStatic-222 MuiAppBar-colorSecondary-226"
+      <h3
+        className="MuiTypography-root-93 MuiTypography-h5-109"
       >
-        <div
-          className="MuiToolbar-root-254 MuiToolbar-regular-256 MuiToolbar-gutters-255"
-        >
-          <a
-            className="MuiButtonBase-root-264 MuiIconButton-root-258"
-            href="/"
-            onBlur={[Function]}
-            onContextMenu={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            role="button"
-            tabIndex="0"
-          >
-            <span
-              className="MuiIconButton-label-263"
-            >
-              <svg
-                aria-hidden="true"
-                className="MuiSvgIcon-root-267"
-                focusable="false"
-                role="presentation"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </span>
-            <span
-              className="MuiTouchRipple-root-300"
-            />
-          </a>
-          <div
-            className="MuiTabs-root-276"
-          >
-            <div
-              className="MuiTabs-flexContainer-277"
-            >
-              <div
-                className="MuiTabs-scroller-279 MuiTabs-fixed-280"
-                onScroll={[Function]}
-                role="tablist"
-                style={
-                  Object {
-                    "marginBottom": 0,
-                  }
-                }
-              >
-                <div
-                  className="MuiTabs-flexContainer-277"
-                >
-                  <button
-                    aria-selected={true}
-                    className="MuiButtonBase-root-264 MuiTab-root-285 MuiTab-textColorInherit-287 MuiTab-selected-290 MuiTab-fullWidth-292"
-                    disabled={false}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onContextMenu={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onKeyUp={[Function]}
-                    onMouseDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseUp={[Function]}
-                    onTouchEnd={[Function]}
-                    onTouchMove={[Function]}
-                    onTouchStart={[Function]}
-                    role="tab"
-                    tabIndex="0"
-                    type="button"
-                  >
-                    <span
-                      className="MuiTab-wrapper-293"
-                    >
-                      <span
-                        className="MuiTab-labelContainer-294"
-                      >
-                        <span
-                          className="MuiTab-label-295"
-                        >
-                          Item 4
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      className="MuiTouchRipple-root-300"
-                    />
-                  </button>
-                  <button
-                    aria-selected={false}
-                    className="MuiButtonBase-root-264 MuiTab-root-285 MuiTab-textColorInherit-287 MuiTab-fullWidth-292"
-                    disabled={false}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onContextMenu={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onKeyUp={[Function]}
-                    onMouseDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseUp={[Function]}
-                    onTouchEnd={[Function]}
-                    onTouchMove={[Function]}
-                    onTouchStart={[Function]}
-                    role="tab"
-                    tabIndex="0"
-                    type="button"
-                  >
-                    <span
-                      className="MuiTab-wrapper-293"
-                    >
-                      <span
-                        className="MuiTab-labelContainer-294"
-                      >
-                        <span
-                          className="MuiTab-label-295"
-                        >
-                          Item 5
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      className="MuiTouchRipple-root-300"
-                    />
-                  </button>
-                  <button
-                    aria-selected={false}
-                    className="MuiButtonBase-root-264 MuiTab-root-285 MuiTab-textColorInherit-287 MuiTab-fullWidth-292"
-                    disabled={false}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onContextMenu={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onKeyUp={[Function]}
-                    onMouseDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseUp={[Function]}
-                    onTouchEnd={[Function]}
-                    onTouchMove={[Function]}
-                    onTouchStart={[Function]}
-                    role="tab"
-                    tabIndex="0"
-                    type="button"
-                  >
-                    <span
-                      className="MuiTab-wrapper-293"
-                    >
-                      <span
-                        className="MuiTab-labelContainer-294"
-                      >
-                        <span
-                          className="MuiTab-label-295"
-                        >
-                          Item 6
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      className="MuiTouchRipple-root-300"
-                    />
-                  </button>
-                  <button
-                    aria-selected={false}
-                    className="MuiButtonBase-root-264 MuiTab-root-285 MuiTab-textColorInherit-287 MuiTab-fullWidth-292"
-                    disabled={false}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onContextMenu={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onKeyUp={[Function]}
-                    onMouseDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseUp={[Function]}
-                    onTouchEnd={[Function]}
-                    onTouchMove={[Function]}
-                    onTouchStart={[Function]}
-                    role="tab"
-                    tabIndex="0"
-                    type="button"
-                  >
-                    <span
-                      className="MuiTab-wrapper-293"
-                    >
-                      <span
-                        className="MuiTab-labelContainer-294"
-                      >
-                        <span
-                          className="MuiTab-label-295"
-                        >
-                          Item 7
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      className="MuiTouchRipple-root-300"
-                    />
-                  </button>
-                  <button
-                    aria-selected={false}
-                    className="MuiButtonBase-root-264 MuiTab-root-285 MuiTab-textColorInherit-287 MuiTab-fullWidth-292"
-                    disabled={false}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onContextMenu={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onKeyUp={[Function]}
-                    onMouseDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseUp={[Function]}
-                    onTouchEnd={[Function]}
-                    onTouchMove={[Function]}
-                    onTouchStart={[Function]}
-                    role="tab"
-                    tabIndex="0"
-                    type="button"
-                  >
-                    <span
-                      className="MuiTab-wrapper-293"
-                    >
-                      <span
-                        className="MuiTab-labelContainer-294"
-                      >
-                        <span
-                          className="MuiTab-label-295"
-                        >
-                          Item 8
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      className="MuiTouchRipple-root-300"
-                    />
-                  </button>
-                </div>
-                <span
-                  className="MuiPrivateTabIndicator-root-297 MuiPrivateTabIndicator-colorPrimary-298 MuiTabs-indicator-284"
-                  style={
-                    Object {
-                      "left": 0,
-                      "width": 0,
-                    }
-                  }
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+        This is a Component.
+      </h3>
+      <p
+        className="MuiTypography-root-93 MuiTypography-body2-101"
+      >
+        This component can be used to build surface or other elements for the application.
+      </p>
     </div>
   </div>
   <button
@@ -377,7 +122,7 @@ exports[`Storyshots NavBar MORE 1`] = `
               }
             }
           >
-            NavBar
+            Container
           </h1>
           <h2
             style={
@@ -389,7 +134,7 @@ exports[`Storyshots NavBar MORE 1`] = `
               }
             }
           >
-            MORE
+            Styled
           </h2>
         </div>
         
@@ -1001,38 +746,9 @@ exports[`Storyshots NavBar MORE 1`] = `
                       }
                     >
                       &lt;
-                      NavBar
+                      WithStyles(Styled(WithStyles(Container)))
                     </span>
-                    <span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          color
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              secondary
-                            </span>
-                            "
-                          </span>
-                        </span>
-                        
-                      </span>
-                    </span>
+                    <span />
                     <span
                       style={
                         Object {
@@ -1043,430 +759,228 @@ exports[`Storyshots NavBar MORE 1`] = `
                       &gt;
                     </span>
                   </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
+                  <div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 48,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      &lt;
-                      NavBarItem
-                    </span>
-                    <span>
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &lt;
+                        WithStyles(Typography)
+                      </span>
                       <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          label
-                        </span>
                         <span>
-                          =
+                           
                           <span
                             style={Object {}}
                           >
-                            "
+                            variant
+                          </span>
+                          <span>
+                            =
                             <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
+                              style={Object {}}
                             >
-                              Item 4
+                              "
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                h5
+                              </span>
+                              "
                             </span>
-                            "
                           </span>
                         </span>
-                      </span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          to
-                        </span>
                         <span>
-                          =
+                           
                           <span
                             style={Object {}}
                           >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #Item4
-                            </span>
-                            "
+                            component
                           </span>
+                          <span>
+                            =
+                            <span
+                              style={Object {}}
+                            >
+                              "
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                h3
+                              </span>
+                              "
+                            </span>
+                          </span>
+                          
                         </span>
-                         
                       </span>
-                    </span>
-                    <span
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &gt;
+                      </span>
+                    </div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 63,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      /&gt;
-                    </span>
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        This is a Component.
+                      </span>
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "paddingLeft": 48,
+                          "paddingRight": 3,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &lt;/
+                        WithStyles(Typography)
+                        &gt;
+                      </span>
+                    </div>
                   </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
+                  <div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 48,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      &lt;
-                      NavBarItem
-                    </span>
-                    <span>
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &lt;
+                        WithStyles(Typography)
+                      </span>
                       <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          label
-                        </span>
                         <span>
-                          =
+                           
                           <span
                             style={Object {}}
                           >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              Item 5
-                            </span>
-                            "
+                            component
                           </span>
+                          <span>
+                            =
+                            <span
+                              style={Object {}}
+                            >
+                              "
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                p
+                              </span>
+                              "
+                            </span>
+                          </span>
+                          
                         </span>
                       </span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          to
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #Item5
-                            </span>
-                            "
-                          </span>
-                        </span>
-                         
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &gt;
                       </span>
-                    </span>
-                    <span
+                    </div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 63,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      /&gt;
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        This component can be used to build surface or other elements for the application.
+                      </span>
+                    </div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 48,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      &lt;
-                      NavBarItem
-                    </span>
-                    <span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          label
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              Item 6
-                            </span>
-                            "
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          to
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #Item6
-                            </span>
-                            "
-                          </span>
-                        </span>
-                         
-                      </span>
-                    </span>
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
                         }
-                      }
-                    >
-                      /&gt;
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
-                      &lt;
-                      NavBarItem
-                    </span>
-                    <span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          label
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              Item 7
-                            </span>
-                            "
-                          </span>
-                        </span>
+                      >
+                        &lt;/
+                        WithStyles(Typography)
+                        &gt;
                       </span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          to
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #Item7
-                            </span>
-                            "
-                          </span>
-                        </span>
-                         
-                      </span>
-                    </span>
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
-                      /&gt;
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
-                      &lt;
-                      NavBarItem
-                    </span>
-                    <span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          label
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              Item 8
-                            </span>
-                            "
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          to
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #Item8
-                            </span>
-                            "
-                          </span>
-                        </span>
-                         
-                      </span>
-                    </span>
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
-                        }
-                      }
-                    >
-                      /&gt;
-                    </span>
+                    </div>
                   </div>
                   <div
                     style={
@@ -1484,7 +998,7 @@ exports[`Storyshots NavBar MORE 1`] = `
                       }
                     >
                       &lt;/
-                      NavBar
+                      WithStyles(Styled(WithStyles(Container)))
                       &gt;
                     </span>
                   </div>
@@ -1928,7 +1442,7 @@ exports[`Storyshots NavBar MORE 1`] = `
               }
             >
               "
-              NavBar
+              WithStyles(Styled(WithStyles(Container)))
               " Component
             </h2>
             <table>
@@ -1996,7 +1510,7 @@ exports[`Storyshots NavBar MORE 1`] = `
                       }
                     }
                   >
-                    className
+                    classes
                   </td>
                   <td
                     style={
@@ -2046,7 +1560,7 @@ exports[`Storyshots NavBar MORE 1`] = `
                       }
                     }
                   >
-                    children
+                    innerRef
                   </td>
                   <td
                     style={
@@ -2066,7 +1580,7 @@ exports[`Storyshots NavBar MORE 1`] = `
                       }
                     }
                   >
-                    yes
+                    -
                   </td>
                   <td
                     style={
@@ -2099,12 +1613,167 @@ exports[`Storyshots NavBar MORE 1`] = `
               }
             >
               "
-              NavBarItem
+              WithStyles(Typography)
               " Component
             </h2>
-            <small>
-              No propTypes defined!
-            </small>
+            <table>
+              <thead>
+                <tr>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    property
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    propType
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    required
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    default
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    classes
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span />
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    innerRef
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span />
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -2113,7 +1782,7 @@ exports[`Storyshots NavBar MORE 1`] = `
 </div>
 `;
 
-exports[`Storyshots NavBar default 1`] = `
+exports[`Storyshots Container default 1`] = `
 <div>
   <div
     style={
@@ -2124,199 +1793,18 @@ exports[`Storyshots NavBar default 1`] = `
     }
   >
     <div
-      className=""
+      className="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 Container-root-1 styled-container"
     >
-      <header
-        className="MuiPaper-root-138 MuiPaper-elevation4-144 MuiAppBar-root-129 MuiAppBar-positionStatic-133 MuiAppBar-colorPrimary-136"
+      <h3
+        className="MuiTypography-root-29 MuiTypography-h5-45"
       >
-        <div
-          className="MuiToolbar-root-165 MuiToolbar-regular-167 MuiToolbar-gutters-166"
-        >
-          <a
-            className="MuiButtonBase-root-175 MuiIconButton-root-169"
-            href="/"
-            onBlur={[Function]}
-            onContextMenu={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            role="button"
-            tabIndex="0"
-          >
-            <span
-              className="MuiIconButton-label-174"
-            >
-              <svg
-                aria-hidden="true"
-                className="MuiSvgIcon-root-178"
-                focusable="false"
-                role="presentation"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
-                />
-                <path
-                  d="M0 0h24v24H0z"
-                  fill="none"
-                />
-              </svg>
-            </span>
-            <span
-              className="MuiTouchRipple-root-211"
-            />
-          </a>
-          <div
-            className="MuiTabs-root-187"
-          >
-            <div
-              className="MuiTabs-flexContainer-188"
-            >
-              <div
-                className="MuiTabs-scroller-190 MuiTabs-fixed-191"
-                onScroll={[Function]}
-                role="tablist"
-                style={
-                  Object {
-                    "marginBottom": 0,
-                  }
-                }
-              >
-                <div
-                  className="MuiTabs-flexContainer-188"
-                >
-                  <button
-                    aria-selected={true}
-                    className="MuiButtonBase-root-175 MuiTab-root-196 MuiTab-textColorInherit-198 MuiTab-selected-201 MuiTab-fullWidth-203"
-                    disabled={false}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onContextMenu={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onKeyUp={[Function]}
-                    onMouseDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseUp={[Function]}
-                    onTouchEnd={[Function]}
-                    onTouchMove={[Function]}
-                    onTouchStart={[Function]}
-                    role="tab"
-                    tabIndex="0"
-                    type="button"
-                  >
-                    <span
-                      className="MuiTab-wrapper-204"
-                    >
-                      <span
-                        className="MuiTab-labelContainer-205"
-                      >
-                        <span
-                          className="MuiTab-label-206"
-                        >
-                          Item 1
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      className="MuiTouchRipple-root-211"
-                    />
-                  </button>
-                  <button
-                    aria-selected={false}
-                    className="MuiButtonBase-root-175 MuiTab-root-196 MuiTab-textColorInherit-198 MuiTab-fullWidth-203"
-                    disabled={false}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onContextMenu={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onKeyUp={[Function]}
-                    onMouseDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseUp={[Function]}
-                    onTouchEnd={[Function]}
-                    onTouchMove={[Function]}
-                    onTouchStart={[Function]}
-                    role="tab"
-                    tabIndex="0"
-                    type="button"
-                  >
-                    <span
-                      className="MuiTab-wrapper-204"
-                    >
-                      <span
-                        className="MuiTab-labelContainer-205"
-                      >
-                        <span
-                          className="MuiTab-label-206"
-                        >
-                          Item 2
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      className="MuiTouchRipple-root-211"
-                    />
-                  </button>
-                  <button
-                    aria-selected={false}
-                    className="MuiButtonBase-root-175 MuiTab-root-196 MuiTab-textColorInherit-198 MuiTab-fullWidth-203"
-                    disabled={false}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onContextMenu={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onKeyUp={[Function]}
-                    onMouseDown={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseUp={[Function]}
-                    onTouchEnd={[Function]}
-                    onTouchMove={[Function]}
-                    onTouchStart={[Function]}
-                    role="tab"
-                    tabIndex="0"
-                    type="button"
-                  >
-                    <span
-                      className="MuiTab-wrapper-204"
-                    >
-                      <span
-                        className="MuiTab-labelContainer-205"
-                      >
-                        <span
-                          className="MuiTab-label-206"
-                        >
-                          Item 3
-                        </span>
-                      </span>
-                    </span>
-                    <span
-                      className="MuiTouchRipple-root-211"
-                    />
-                  </button>
-                </div>
-                <span
-                  className="MuiPrivateTabIndicator-root-208 MuiPrivateTabIndicator-colorSecondary-210 MuiTabs-indicator-195"
-                  style={
-                    Object {
-                      "left": 0,
-                      "width": 0,
-                    }
-                  }
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+        This is a Component.
+      </h3>
+      <p
+        className="MuiTypography-root-29 MuiTypography-body2-37"
+      >
+        This component can be used to build surface or other elements for the application.
+      </p>
     </div>
   </div>
   <button
@@ -2416,7 +1904,7 @@ exports[`Storyshots NavBar default 1`] = `
               }
             }
           >
-            NavBar
+            Container
           </h1>
           <h2
             style={
@@ -3040,7 +2528,7 @@ exports[`Storyshots NavBar default 1`] = `
                       }
                     >
                       &lt;
-                      NavBar
+                      WithStyles(Container)
                     </span>
                     <span>
                       <span>
@@ -3048,7 +2536,7 @@ exports[`Storyshots NavBar default 1`] = `
                         <span
                           style={Object {}}
                         >
-                          color
+                          className
                         </span>
                         <span>
                           =
@@ -3064,7 +2552,7 @@ exports[`Storyshots NavBar default 1`] = `
                                 }
                               }
                             >
-                              primary
+                              styled-container
                             </span>
                             "
                           </span>
@@ -3082,260 +2570,228 @@ exports[`Storyshots NavBar default 1`] = `
                       &gt;
                     </span>
                   </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
+                  <div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 48,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      &lt;
-                      NavBarItem
-                    </span>
-                    <span>
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &lt;
+                        WithStyles(Typography)
+                      </span>
                       <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          label
-                        </span>
                         <span>
-                          =
+                           
                           <span
                             style={Object {}}
                           >
-                            "
+                            variant
+                          </span>
+                          <span>
+                            =
                             <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
+                              style={Object {}}
                             >
-                              Item 1
+                              "
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                h5
+                              </span>
+                              "
                             </span>
-                            "
                           </span>
                         </span>
-                      </span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          to
-                        </span>
                         <span>
-                          =
+                           
                           <span
                             style={Object {}}
                           >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #Item1
-                            </span>
-                            "
+                            component
                           </span>
+                          <span>
+                            =
+                            <span
+                              style={Object {}}
+                            >
+                              "
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                h3
+                              </span>
+                              "
+                            </span>
+                          </span>
+                          
                         </span>
-                         
                       </span>
-                    </span>
-                    <span
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &gt;
+                      </span>
+                    </div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 63,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      /&gt;
-                    </span>
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        This is a Component.
+                      </span>
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "paddingLeft": 48,
+                          "paddingRight": 3,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &lt;/
+                        WithStyles(Typography)
+                        &gt;
+                      </span>
+                    </div>
                   </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
+                  <div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 48,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      &lt;
-                      NavBarItem
-                    </span>
-                    <span>
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &lt;
+                        WithStyles(Typography)
+                      </span>
                       <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          label
-                        </span>
                         <span>
-                          =
+                           
                           <span
                             style={Object {}}
                           >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              Item 2
-                            </span>
-                            "
+                            component
                           </span>
+                          <span>
+                            =
+                            <span
+                              style={Object {}}
+                            >
+                              "
+                              <span
+                                style={
+                                  Object {
+                                    "color": "#22a",
+                                    "wordBreak": "break-word",
+                                  }
+                                }
+                              >
+                                p
+                              </span>
+                              "
+                            </span>
+                          </span>
+                          
                         </span>
                       </span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          to
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #Item2
-                            </span>
-                            "
-                          </span>
-                        </span>
-                         
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        &gt;
                       </span>
-                    </span>
-                    <span
+                    </div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 63,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      /&gt;
-                    </span>
-                  </div>
-                  <div
-                    style={
-                      Object {
-                        "paddingLeft": 48,
-                        "paddingRight": 3,
-                      }
-                    }
-                  >
-                    <span
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
+                        }
+                      >
+                        This component can be used to build surface or other elements for the application.
+                      </span>
+                    </div>
+                    <div
                       style={
                         Object {
-                          "color": "#444",
+                          "paddingLeft": 48,
+                          "paddingRight": 3,
                         }
                       }
                     >
-                      &lt;
-                      NavBarItem
-                    </span>
-                    <span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          label
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              Item 3
-                            </span>
-                            "
-                          </span>
-                        </span>
-                      </span>
-                      <span>
-                         
-                        <span
-                          style={Object {}}
-                        >
-                          to
-                        </span>
-                        <span>
-                          =
-                          <span
-                            style={Object {}}
-                          >
-                            "
-                            <span
-                              style={
-                                Object {
-                                  "color": "#22a",
-                                  "wordBreak": "break-word",
-                                }
-                              }
-                            >
-                              #Item3
-                            </span>
-                            "
-                          </span>
-                        </span>
-                         
-                      </span>
-                    </span>
-                    <span
-                      style={
-                        Object {
-                          "color": "#444",
+                      <span
+                        style={
+                          Object {
+                            "color": "#444",
+                          }
                         }
-                      }
-                    >
-                      /&gt;
-                    </span>
+                      >
+                        &lt;/
+                        WithStyles(Typography)
+                        &gt;
+                      </span>
+                    </div>
                   </div>
                   <div
                     style={
@@ -3353,7 +2809,7 @@ exports[`Storyshots NavBar default 1`] = `
                       }
                     >
                       &lt;/
-                      NavBar
+                      WithStyles(Container)
                       &gt;
                     </span>
                   </div>
@@ -3797,7 +3253,7 @@ exports[`Storyshots NavBar default 1`] = `
               }
             >
               "
-              NavBar
+              WithStyles(Container)
               " Component
             </h2>
             <table>
@@ -3865,7 +3321,7 @@ exports[`Storyshots NavBar default 1`] = `
                       }
                     }
                   >
-                    className
+                    classes
                   </td>
                   <td
                     style={
@@ -3915,7 +3371,7 @@ exports[`Storyshots NavBar default 1`] = `
                       }
                     }
                   >
-                    children
+                    innerRef
                   </td>
                   <td
                     style={
@@ -3935,7 +3391,7 @@ exports[`Storyshots NavBar default 1`] = `
                       }
                     }
                   >
-                    yes
+                    -
                   </td>
                   <td
                     style={
@@ -3968,12 +3424,167 @@ exports[`Storyshots NavBar default 1`] = `
               }
             >
               "
-              NavBarItem
+              WithStyles(Typography)
               " Component
             </h2>
-            <small>
-              No propTypes defined!
-            </small>
+            <table>
+              <thead>
+                <tr>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    property
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    propType
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    required
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    default
+                  </th>
+                  <th
+                    style={
+                      Object {
+                        "textAlign": "left",
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    classes
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span />
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    innerRef
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span />
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

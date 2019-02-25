@@ -11,48 +11,48 @@ exports[`Storyshots Table default 1`] = `
     }
   >
     <div
-      className="MuiPaper-root-181 MuiPaper-elevation2-185 MuiPaper-rounded-182 TableContainer-root-179 table"
+      className="MuiPaper-root-309 MuiPaper-elevation2-313 MuiPaper-rounded-310 TableContainer-root-307 table"
     >
       <table
-        className="MuiTable-root-208 TableContainer-table-180 table"
+        className="MuiTable-root-336 TableContainer-table-308 table"
       >
         <thead
-          className="MuiTableHead-root-209"
+          className="MuiTableHead-root-337"
         >
           <tr
-            className="MuiTableRow-root-210 MuiTableRow-head-213"
+            className="MuiTableRow-root-338 MuiTableRow-head-341"
           >
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-head-216"
+              className="MuiTableCell-root-343 MuiTableCell-head-344"
               scope="col"
             >
               Dessert (100g serving)
             </th>
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-head-216 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-head-344 MuiTableCell-alignRight-353"
               scope="col"
             >
               Calories
             </th>
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-head-216 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-head-344 MuiTableCell-alignRight-353"
               scope="col"
             >
               Fat (g)
             </th>
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-head-216 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-head-344 MuiTableCell-alignRight-353"
               scope="col"
             >
               Carbs (g)
             </th>
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-head-216 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-head-344 MuiTableCell-alignRight-353"
               scope="col"
             >
               Protein (g)
@@ -60,179 +60,179 @@ exports[`Storyshots Table default 1`] = `
           </tr>
         </thead>
         <tbody
-          className="MuiTableBody-root-227"
+          className="MuiTableBody-root-355"
         >
           <tr
-            className="MuiTableRow-root-210"
+            className="MuiTableRow-root-338"
           >
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217"
+              className="MuiTableCell-root-343 MuiTableCell-body-345"
               scope="row"
             >
               Frozen yoghurt
             </th>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               159
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               6
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               24
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               4
             </td>
           </tr>
           <tr
-            className="MuiTableRow-root-210"
+            className="MuiTableRow-root-338"
           >
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217"
+              className="MuiTableCell-root-343 MuiTableCell-body-345"
               scope="row"
             >
               Ice cream sandwich
             </th>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               237
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               9
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               37
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               4.3
             </td>
           </tr>
           <tr
-            className="MuiTableRow-root-210"
+            className="MuiTableRow-root-338"
           >
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217"
+              className="MuiTableCell-root-343 MuiTableCell-body-345"
               scope="row"
             >
               Eclair
             </th>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               262
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               16
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               24
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               6
             </td>
           </tr>
           <tr
-            className="MuiTableRow-root-210"
+            className="MuiTableRow-root-338"
           >
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217"
+              className="MuiTableCell-root-343 MuiTableCell-body-345"
               scope="row"
             >
               Cupcake
             </th>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               305
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               3.7
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               67
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               4.3
             </td>
           </tr>
           <tr
-            className="MuiTableRow-root-210"
+            className="MuiTableRow-root-338"
           >
             <th
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217"
+              className="MuiTableCell-root-343 MuiTableCell-body-345"
               scope="row"
             >
               Gingerbread
             </th>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               356
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               16
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               49
             </td>
             <td
               aria-sort={null}
-              className="MuiTableCell-root-215 MuiTableCell-body-217 MuiTableCell-alignRight-225"
+              className="MuiTableCell-root-343 MuiTableCell-body-345 MuiTableCell-alignRight-353"
             >
               3.9
             </td>

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> renders correctly 1`] = `
+<Container
+  classes={
+    Object {
+      "root": "Container-root-1",
+    }
+  }
+>
+  <WithStyles(Typography)
+    component="h3"
+    variant="h5"
+  >
+    This is a Component.
+  </WithStyles(Typography)>
+  <WithStyles(Typography)
+    component="p"
+  >
+    This component can be used to build surface or other elements for the application.
+  </WithStyles(Typography)>
+</Container>
+`;
