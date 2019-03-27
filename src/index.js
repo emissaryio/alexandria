@@ -1,4 +1,10 @@
 export { NavBar, NavBarItem } from './components/NavBar';
 export { default as Image } from './components/Image';
 export { default as Table } from './components/Table';
-export { default as Theme } from './hocs/withTheme';
+export { default as TableBody } from './components/TableBody';
+export { default as TableCell } from './components/TableCell';
+export { default as TableFooter } from './components/TableFooter';
+export { default as TableHead } from './components/TableHead';
+export { default as TablePagination } from './components/TablePagination';
+export { default as TableRow } from './components/TableRow';
+export { default as TableSortLabel } from './components/TableSortLabel';
