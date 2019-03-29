@@ -2,5 +2,5 @@
 
 yarn build &&
 cd dist/ &&
-npm publish &&
+npm publish  --access=public &&
 rm -rf dist/

@@ -10,14 +10,11 @@ import Toolbar from '@material-ui/core/Toolbar';
 
 
 class NavBar extends Component {
-  constructor(props) {
-    super(props);
+  state = {
+    value: 0
+  };
 
-    this.state = { value: 0 };
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange = (value) => {
+  handleChange = (event, value) => {
     this.setState({ value });
   };
 
@@ -44,7 +41,7 @@ class NavBar extends Component {
             </IconButton>
             <Tabs
               value={value}
-              onChange={() => this.handleChange(value)}
+              onChange={this.handleChange}
               indicatorColor={(color === 'primary') ? 'secondary' : 'primary'}
               variant="fullWidth"
             >
