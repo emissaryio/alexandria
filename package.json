@@ -1,6 +1,6 @@
 {
   "name": "@emissary/alexandria",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Emissary UI Library",
   "main": "src/index.js",
   "license": "MIT",
@@ -9,6 +9,8 @@
     "node": ">=8.15.0"
   },
   "scripts": {
+    "build": "./scripts/build.sh",
+    "build-and-publish": "./scripts/build-and-publish.sh",
     "build:dev": "rollup -c rollup.config.dev.js -m",
     "build:prod": "rollup -c rollup.config.prod.js",
     "build-storybook": "build-storybook -s public",
