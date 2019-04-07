@@ -6,5 +6,6 @@ export { default as TableCell } from './components/TableCell';
 export { default as TableFooter } from './components/TableFooter';
 export { default as TableHead } from './components/TableHead';
 export { default as TablePagination } from './components/TablePagination';
+export { default as TablePaginationActions } from './components/TablePaginationActions';
 export { default as TableRow } from './components/TableRow';
 export { default as TableSortLabel } from './components/TableSortLabel';
